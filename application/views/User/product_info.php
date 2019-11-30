@@ -50,6 +50,16 @@ $page = "party_list";
                   <div class="form-group col-md-10 offset-md-2">
                     <input type="text" class="form-control form-control-sm" name="" id="" title="Enter Product Description" placeholder="Enter Product Description">
                   </div>
+
+                  <div class="form-group col-md-3 offset-md-2">
+                    <input type="text" class="form-control form-control-sm" name="" id="" title="MRP" placeholder="MRP">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <input type="text" class="form-control form-control-sm" name="" id="" title="Sale Price" placeholder="Sale Price">
+                  </div>
+                  <div class="form-group col-md-3">
+                    <input type="text" class="form-control form-control-sm" name="" id="" title="Referel Margin" placeholder="Referel Margin">
+                  </div>
                   <div class="form-group col-md-8 offset-md-2">
                     <div class="form-group">
                       <!-- <label for="exampleInputFile">File input</label> -->
@@ -77,7 +87,10 @@ $page = "party_list";
                     <tr>
                       <th>Sr. No.</th>
                       <th>Image</th>
-                      <th>Product Category Name</th>
+                      <th>Product Category</th>
+                      <th>Product Name</th>
+                      <th>Sale Price</th>
+                      <th>Referal Margin</th>
                       <th>Status </th>
                       <th>Action</th>
                     </tr>
@@ -87,6 +100,9 @@ $page = "party_list";
                         <tr>
                           <td>1</td>
                           <td>1</td>
+                          <td>1 </td>
+                          <td>1</td>
+                          <td>1 </td>
                           <td>1 </td>
                           <td>1</td>
                           <td>1 </td>

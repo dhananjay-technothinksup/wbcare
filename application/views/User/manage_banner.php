@@ -34,11 +34,15 @@ $page = "party_list";
             </div> -->
             <!-- /.card-header -->
             <div class="card-body" >
-              <form role="form">
+              <?php if(isset($update)){ ?>
+                <form action="<?php echo base_url(); ?>User/update_banner" method="post" enctype="multipart/form-data" role="form">
+                  <input type="hidden" name="banner_id" value="<?php echo $banner_id; ?>">
+              <?php }else{ ?>
+                <form action="<?php echo base_url(); ?>User/save_banner" method="post" enctype="multipart/form-data" role="form">
+              <?php } ?>
                 <div class="card-body row">
-
                   <div class="form-group col-md-10 offset-md-2">
-                    <input type="text" class="form-control form-control-sm" name="" id="" title="Enter Banner Name" placeholder="Enter Banner Name">
+                    <input type="text" class="form-control form-control-sm" name="banner" id="banner" value="<?php if(isset($banner)){ echo $banner; } ?>" title="Enter Banner Name" placeholder="Enter Banner Name">
                   </div>
                   <div class="form-group col-md-8 offset-md-2">
                     <div class="form-group">

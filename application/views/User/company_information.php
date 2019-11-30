@@ -42,52 +42,52 @@
 
                 <div class="card-body row">
                   <div class="form-group col-md-12">
-                    <input type="text" class="form-control" name="company_name" id="company_name" value="<?php if(isset($company_name)){ echo $company_name; } ?>" placeholder="Enter Company Name">
+                    <input type="text" class="form-control" name="company_name" id="company_name" value="<?php if(isset($company_name)){ echo $company_name; } ?>"  title="Enter Company Name" placeholder="Enter Company Name">
                   </div>
                   <div class="form-group col-md-12">
-                    <textarea class="form-control" rows="3" name="company_address" id="company_address" placeholder="Enter Company Address"><?php if(isset($company_address)){ echo $company_address; } ?></textarea>
+                    <textarea class="form-control" rows="3" name="company_address" id="company_address" title="Enter Company Address" placeholder="Enter Company Address"><?php if(isset($company_address)){ echo $company_address; } ?></textarea>
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_city" id="company_city" value="<?php if(isset($company_city)){ echo $company_city; } ?>" placeholder="City">
+                    <input type="text" class="form-control" name="company_city" id="company_city" value="<?php if(isset($company_city)){ echo $company_city; } ?>" title="City" placeholder="City">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_state" id="company_state" value="<?php if(isset($company_state)){ echo $company_state; } ?>" placeholder="State">
+                    <input type="text" class="form-control" name="company_state" id="company_state" value="<?php if(isset($company_state)){ echo $company_state; } ?>" title="State" placeholder="State">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_district" id="company_district" value="<?php if(isset($company_district)){ echo $company_district; } ?>" placeholder="District">
+                    <input type="text" class="form-control" name="company_district" id="company_district" value="<?php if(isset($company_district)){ echo $company_district; } ?>" title="District" placeholder="District">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="number" class="form-control" name="company_pincode" id="company_pincode" value="<?php if(isset($company_pincode)){ echo $company_pincode; } ?>" placeholder="Pincode">
+                    <input type="number" class="form-control" name="company_pincode" id="company_pincode" value="<?php if(isset($company_pincode)){ echo $company_pincode; } ?>" title="Pincode" placeholder="Pincode">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="number" class="form-control" name="company_mob1" id="company_mob1" value="<?php if(isset($company_mob1)){ echo $company_mob1; } ?>" placeholder="Mobile No. 1">
+                    <input type="number" class="form-control" name="company_mob1" id="company_mob1" value="<?php if(isset($company_mob1)){ echo $company_mob1; } ?>" title="Mobile No. 1" placeholder="Mobile No. 1">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="number" class="form-control" name="company_mob2" id="company_mob2" value="<?php if(isset($company_mob2)){ echo $company_mob2; } ?>" placeholder="Mobile No. 2">
+                    <input type="number" class="form-control" name="company_mob2" id="company_mob2" value="<?php if(isset($company_mob2)){ echo $company_mob2; } ?>" title="Mobile No. 2" placeholder="Mobile No. 2">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="email" class="form-control" name="company_email" id="company_email" value="<?php if(isset($company_email)){ echo $company_email; } ?>" placeholder="Email">
+                    <input type="email" class="form-control" name="company_email" id="company_email" value="<?php if(isset($company_email)){ echo $company_email; } ?>" title="Email" placeholder="Email">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_website" id="company_website" value="<?php if(isset($company_website)){ echo $company_website; } ?>" placeholder="Website">
+                    <input type="text" class="form-control" name="company_website" id="company_website" value="<?php if(isset($company_website)){ echo $company_website; } ?>" title="Website" placeholder="Website">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_pan_no" id="company_pan_no" value="<?php if(isset($company_pan_no)){ echo $company_pan_no; } ?>" placeholder="Pan No.">
+                    <input type="text" class="form-control" name="company_pan_no" id="company_pan_no" value="<?php if(isset($company_pan_no)){ echo $company_pan_no; } ?>" title="Pan No." placeholder="Pan No.">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_gst_no" id="company_gst_no" value="<?php if(isset($company_gst_no)){ echo $company_gst_no; } ?>" placeholder="GST No.">
+                    <input type="text" class="form-control" name="company_gst_no" id="company_gst_no" value="<?php if(isset($company_gst_no)){ echo $company_gst_no; } ?>" title="GST No." placeholder="GST No.">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_lic1" id="company_lic1" value="<?php if(isset($company_lic1)){ echo $company_lic1; } ?>" placeholder="Lic No. 1">
+                    <input type="text" class="form-control" name="company_lic1" id="company_lic1" value="<?php if(isset($company_lic1)){ echo $company_lic1; } ?>" title="Lic No. 1" placeholder="Lic No. 1">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_lic2" id="company_lic2" value="<?php if(isset($company_lic2)){ echo $company_lic2; } ?>" placeholder="Lic No. 2">
+                    <input type="text" class="form-control" name="company_lic2" id="company_lic2" value="<?php if(isset($company_lic2)){ echo $company_lic2; } ?>" title="Lic No. 2" placeholder="Lic No. 2">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control date" name="company_start_date" id="date1" value="<?php if(isset($company_start_date)){ echo $company_start_date; } ?>" data-target="#date1" data-toggle="datetimepicker" placeholder="Fin Start Date">
+                    <input type="text" class="form-control date" name="company_start_date" id="date1" value="<?php if(isset($company_start_date)){ echo $company_start_date; } ?>" data-target="#date1" data-toggle="datetimepicker" title="Fin Start Date" placeholder="Fin Start Date">
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="text" class="form-control" name="company_end_date" id="date2" value="<?php if(isset($company_end_date)){ echo $company_end_date; } ?>" data-target="#date2" data-toggle="datetimepicker" placeholder="Fin End Date">
+                    <input type="text" class="form-control" name="company_end_date" id="date2" value="<?php if(isset($company_end_date)){ echo $company_end_date; } ?>" data-target="#date2" data-toggle="datetimepicker" title="Fin End Date" placeholder="Fin End Date">
                   </div>
                   <?php if(isset($update)){ }else{ ?>
                     <div class="form-group col-md-6">
@@ -102,10 +102,10 @@
                       No file selected.
                     </div>
                     <div class="form-group col-md-6">
-                      <input type="email" class="form-control" name="admin_email" id="admin_email" placeholder="Admin Email">
+                      <input type="email" class="form-control" name="admin_email" id="admin_email" title="Admin Email"  placeholder="Admin Email">
                     </div>
                     <div class="form-group col-md-6">
-                      <input type="password" class="form-control" name="admin_password" id="admin_password" placeholder="Admin Password">
+                      <input type="password" class="form-control" name="admin_password" id="admin_password" title="Admin Password" placeholder="Admin Password">
                     </div>
                   <?php } ?>
                 </div>
